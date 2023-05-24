@@ -1,5 +1,5 @@
 # Code to dump data from the old PADS database hosted by NuSEDS
-# http://pac-salmon.dfo-mpo.gc.ca/Nuseds.Query/#/Query#r
+# http://pac-salmon.dfo-mpo.gc.ca/Nuseds.Query/#/Query
 # Code adapted from N. Komick 
 # May 2023
 # ***REQUIRES .json QUERY DOC: nuseds_2020-2022.json - this may have to be updated for what you want specifically, but for now is just for 2020-2022 ages dump. 
