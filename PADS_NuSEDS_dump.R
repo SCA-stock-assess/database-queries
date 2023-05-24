@@ -12,8 +12,8 @@ library(tidyverse)
 library(httr)          # for authenticate()
 library(askpass)       # for askpass()
 
-# Define query doc for extraction below ---------------------------
-padsJSONqry <- ".json"
+# Define query doc for extraction below (WILL NEED TO DEFINE LOCATION ON YOUR MACHINE AS YOU SEE FIT) ---------------------------
+padsJSONqry <- "pads_nuseds_2020-2022.json"
 
 
 # ========================= DEFINE EXTRACTION FUNCTIONS =========================
