@@ -3,7 +3,7 @@
 # Code adapted from N. Komick 
 # May 2023
 # ***REQUIRES .json QUERY DOC: pads_nuseds_2020-2022.json - this may have to be updated for what you want specifically, but for now is just for 2022 relseases dump for all facilities. 
-# Note: the query docs require the DataSource field to be changed whether you want CWT releases, recoveries, or releases join recoveries. Ask KD how to do this if you are not sure.
+# Note: the query docs require the DataSource view field to be changed whether you want CWT releases (VW_RELEASES_C), recoveries (VW_RECOVERIES), or releases join recoveries (VW_RL_JOIN_RC). Ask KD how to do this if you are not sure.
 
 
 # ========================= SET UP =========================
