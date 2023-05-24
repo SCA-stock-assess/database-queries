@@ -1,7 +1,7 @@
 # database-queries
-Repository for code used to access various DFO databases on network.
+R scripts and .json query docs (as needed) used to access internal DFO databases. All URLs require connection to DFO network. 
 
-Full details are within scripts, but databases that can be queried directly in R to date are:
+Full details are within scripts. Databases with direct R queries to date are:
 - PADS (NuSEDS), all salmon ages up to ~2021: http://pac-salmon.dfo-mpo.gc.ca/Nuseds.Query/#/Query](http://pac-salmon.dfo-mpo.gc.ca/Nuseds.Query/#/Query#r)
 - PADS (MRPIS), all salmon and non-salmon ages from ~2021-onward: http://pac-salmon.dfo-mpo.gc.ca/CwtDataEntry/#/AgeBatchList
 - NuSEDS, all salmon escapement data: http://pac-salmon.dfo-mpo.gc.ca/Nuseds.Query/#/Query
