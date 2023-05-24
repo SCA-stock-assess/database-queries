@@ -1,4 +1,4 @@
-# Code to dump data from the old PADS database hosted by NuSEDS
+# Code to dump escapement data from database hosted by NuSEDS
 # http://pac-salmon.dfo-mpo.gc.ca/Nuseds.Query/#/Query
 # Code adapted from N. Komick 
 # May 2023
