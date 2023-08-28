@@ -39,3 +39,11 @@ wcviOtoMgr_2015.22 <- do.call("rbind", otomgr.xlsxs) %>%
 # Here I am exporting to our working SharePoint folder for the Chinook terminal run reconstruction. Change the path to be whatever you want. 
 write_xlsx(wcviOtoMgr_2015.22, path=paste0("C:/Users", sep="/", Sys.info()[6], sep="/",
                                            "DFO-MPO/PAC-SCA Stock Assessment (STAD) - Terminal CN Run Recon/TEST/data_prep_files/Otolith/OtoMgr_AllSpecies_A20-27andOffshore_2015-2022 - R output.xlsx"))
+
+
+# ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+# HOUSEKEEPING/CONSIDERATIONS:
+# If you are confident that the data above are static, this master file created above now contains data from 2015-2022 that does not have to be queried again. 
+# To join escapement data in future, only need to download the most recent year of Otolith recovery data and rbind() to the "OtoMgr_AllSpecies_A20-27andOffshore_2015-2022 - R output" master file. 
+# Although note, the new columns created that start with (R) in rows ~28-32 may preclude rbind(). Consider full_join() instead.
+# ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
