@@ -12,3 +12,7 @@ DFO databases without direct R queries (yet...) but have tidying code:
 
 DFO databases without direct R queries and no tidying code yet:
 - EPRO (SEP), major ops salmon hatchery information from 2022 onward: https://epro-stage.azure.cloud.dfo-mpo.gc.ca/EProWeb/#home
+
+
+Maintainer:
+Katie Davidson
