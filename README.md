@@ -21,13 +21,16 @@ For escapement data (and some historical age data) housed in NuSEDS and accessed
 ## FOS
 To connect to FOS, see the package FOSer by M. Folkes: https://gitlab.com/MichaelFolkes/foser. May require a FOS account. 
 
+<br>
+
 ## Documentation to add in future: 
 - Connection to CREST (?)
 - Connection to EPRO (?)
 - Connection to new Oto Manager (?)
 - Connection(s) to new Salmon Space tools (?)
 
-**If you would like to contribute, please add a folder with an informative name of either the name of the database being queried, or the type of data being queried. 
+**If you would like to contribute, please add a folder with an informative name of either the name of the database being queried, or the type of data being queried.** 
+
 <br>
 
 Maintainer:
